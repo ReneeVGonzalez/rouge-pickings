@@ -1,0 +1,155 @@
+/***** BASE STYLES *****/
+.body{
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+/***** GRID *****/
+
+.full-width{
+  width: 1200px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 5px;
+
+
+}
+
+.half-width{
+   width: 600px;
+   float: left;
+   margin-top: 0px;
+   padding-top:0px;
+
+}
+
+.third-width{
+   width: 400px;
+   float: left;
+   margin-left: 50px;
+   display: inline-block;
+
+}
+
+/***** HEADER *****/
+header{
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-left: 60px;
+  margin-bottom: 25px;
+  float:left;
+
+}
+
+#pic {
+  border-bottom: 3px solid #77A466;
+  border-top: 3px solid #77A466;
+  margin-left: 30px;
+
+}
+
+header h1{
+   padding-top: 0px;
+   font-size: 26px;
+   color: black;
+   font-family: 'Montserrat', sans-serif;
+   margin-top: 0px;
+   letter-spacing: 3px;
+   font-weight: 600;
+   margin-left: 10px;
+   float: left;
+   display: inline-block;
+
+}
+
+
+h1 span{
+  color: #77A466
+}
+
+#welcome {
+  color: #77A466
+}
+
+h2{
+   text-transform: none;
+   font-size: 16px;
+   color: black;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bolder;
+}
+
+h4{
+  font-size: 12px;
+
+}
+
+/***** NAV *****/
+nav{
+   float: right;
+   margin-left: 0px;
+   padding-left: 0px;
+   word-spacing: 5px;
+   font-weight: 600;
+   padding-top: 0px;
+
+}
+
+ul{
+  list-style-type: none;
+  color: #77A466;
+}
+
+nav ul li{
+   display: inline-block;
+   margin-left: 90px;
+
+}
+
+nav ul li a {
+   text-transform: uppercase;
+   text-decoration: none;
+   font-size: 12px;
+   color: #77A466;
+   font-family: 'Montserrat', sans-serif;
+   margin-left: 0px;
+
+}
+
+/***** MAIN *****/
+#intro {
+    margin-left: 30px;
+      border-bottom: 1px solid #eee;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 25px;
+  font-weight: light;
+}
+
+#reviews {
+  border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
+
+/***** FOOTER *****/
+h2 span{
+   color: #77A466;
+   font-family: dancing-script;
+}
+
+footer {
+   margin: 0 auto;
+   border-top: 3px solid #eee;
+   text-align: center;
+   padding-top: 10px;
+   clear: both;
+   height: 50px;
+   font-size: 14px;
+}
